@@ -120,6 +120,16 @@ For AI coding agents working on this project:
 - Use citation format for code references
 - End conversations with task summaries
 
+### Git Tagging
+
+Use semantic versioning for tags (e.g., v1.0.0 for major.minor.patch).
+
+- Tag releases on the main branch after successful testing and merging.
+- Create an annotated tag: `git tag -a v1.0.0 -m "Release version 1.0.0"`
+- Push tags to remote: `git push origin --tags`
+- List tags: `git tag`
+- Delete tags if needed: `git tag -d v1.0.0` and `git push origin --delete v1.0.0`
+
 ### Commands
 
 - Development: `npm run dev`
