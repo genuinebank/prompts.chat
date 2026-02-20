@@ -29,7 +29,7 @@ This project uses a simplified GitHub Flow for feature development.
 
 ## Remotes
 
-- `origin`: https://github.com/genuinebank/prompts.chat (primary remote)
-- `source`: https://github.com/f/prompts.chat (upstream/source remote)
+- `origin`: [https://github.com/genuinebank/prompts.chat](https://github.com/genuinebank/prompts.chat) (primary remote)
+- `source`: [https://github.com/f/prompts.chat](https://github.com/f/prompts.chat) (upstream/source remote)
 
 Always push to `origin` for new features in this repo.
