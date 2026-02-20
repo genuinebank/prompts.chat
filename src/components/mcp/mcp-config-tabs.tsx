@@ -34,7 +34,7 @@ const CLIENT_LABELS: Record<Client, string> = {
   gemini: "Gemini",
 };
 
-const NPM_PACKAGE = "@fkadev/prompts.chat-mcp";
+const NPM_PACKAGE = "@fkadev/prompts.bar-mcp";
 
 function buildLocalEnv(apiKey?: string | null, queryParams?: string): Record<string, string> | undefined {
   const env: Record<string, string> = {};
