@@ -40,15 +40,15 @@ export async function generateMetadata(): Promise<Metadata> {
     ],
     authors: [{ name: "Fatih Kadir Akın", url: "https://github.com/f" }],
     creator: "Fatih Kadir Akın",
-    publisher: "prompts.chat",
+    publisher: "prompts.bar",
     openGraph: {
       title,
       description,
-      url: "https://prompts.chat/book",
-      siteName: "prompts.chat",
+      url: "https://prompts.bar/book",
+      siteName: "prompts.bar",
       images: [
         {
-          url: "https://prompts.chat/book-cover-photo.jpg",
+          url: "https://prompts.bar/book-cover-photo.jpg",
           width: 1200,
           height: 630,
           alt: title,
@@ -61,11 +61,11 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["https://prompts.chat/book-cover-photo.jpg"],
+      images: ["https://prompts.bar/book-cover-photo.jpg"],
       creator: "@fkadev",
     },
     alternates: {
-      canonical: "https://prompts.chat/book",
+      canonical: "https://prompts.bar/book",
     },
     robots: {
       index: true,
@@ -95,11 +95,11 @@ const jsonLd = {
   },
   publisher: {
     "@type": "Organization",
-    name: "prompts.chat",
-    url: "https://prompts.chat",
+    name: "prompts.bar",
+    url: "https://prompts.bar",
   },
-  url: "https://prompts.chat/book",
-  image: "https://prompts.chat/book-cover-photo.jpg",
+  url: "https://prompts.bar/book",
+  image: "https://prompts.bar/book-cover-photo.jpg",
   inLanguage: "en",
   genre: ["Technology", "Education", "Artificial Intelligence"],
   about: {

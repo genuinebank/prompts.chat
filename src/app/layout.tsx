@@ -40,8 +40,8 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXTAUTH_URL || "http://localhost:3000"),
   title: {
-    default: "prompts.chat - AI Prompts Community",
-    template: "%s | prompts.chat",
+    default: "prompts.bar - AI Prompts Community",
+    template: "%s | prompts.bar",
   },
   description:
     "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more. Join the largest community of AI prompt engineers and creators.",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     "AI assistant",
     "prompt templates",
   ],
-  authors: [{ name: "prompts.chat community" }],
-  creator: "prompts.chat",
-  publisher: "prompts.chat",
+  authors: [{ name: "prompts.bar community" }],
+  creator: "prompts.bar",
+  publisher: "prompts.bar",
   icons: {
     icon: [
       { url: "/favicon/favicon.ico", sizes: "48x48" },
@@ -70,13 +70,13 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   other: {
-    "apple-mobile-web-app-title": "prompts.chat",
+    "apple-mobile-web-app-title": "prompts.bar",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "prompts.chat",
-    title: "prompts.chat - AI Prompts Community",
+    siteName: "prompts.bar",
+    title: "prompts.bar - AI Prompts Community",
     description:
       "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more. Join the largest community of AI prompt engineers.",
     images: [
@@ -84,13 +84,13 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "prompts.chat - AI Prompts Community",
+        alt: "prompts.bar - AI Prompts Community",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "prompts.chat - AI Prompts Community",
+    title: "prompts.bar - AI Prompts Community",
     description:
       "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more.",
     images: ["/og.png"],
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: process.env.NEXTAUTH_URL || "https://prompts.chat",
+    canonical: process.env.NEXTAUTH_URL || "https://prompts.bar",
   },
 };
 

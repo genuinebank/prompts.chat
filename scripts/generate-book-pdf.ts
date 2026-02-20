@@ -22,7 +22,7 @@ import { getLocaleData, type LocaleData } from '../src/components/book/elements/
 const BOOK_DIR = path.join(process.cwd(), 'src/content/book');
 const MESSAGES_DIR = path.join(process.cwd(), 'messages');
 const OUTPUT_DIR = path.join(process.cwd(), 'public/book-pdf');
-const SITE_URL = 'https://prompts.chat';
+const SITE_URL = 'https://prompts.bar';
 
 // Print-ready mode flag (set by --print CLI argument)
 const PRINT_READY = process.argv.includes('--print');
@@ -94,23 +94,23 @@ const STATICALLY_RENDERED_COMPONENTS = [
 
 // Localization for the interactive notice
 const INTERACTIVE_NOTICES: Record<string, string> = {
-  en: '📖 This is an interactive element. Visit prompts.chat/book to try it live!',
-  tr: '📖 Bu etkileşimli bir öğedir. Canlı denemek için prompts.chat/book adresini ziyaret edin!',
-  es: '📖 Este es un elemento interactivo. ¡Visita prompts.chat/book para probarlo en vivo!',
-  de: '📖 Dies ist ein interaktives Element. Besuchen Sie prompts.chat/book, um es live auszuprobieren!',
-  fr: '📖 Ceci est un élément interactif. Visitez prompts.chat/book pour l\'essayer en direct!',
-  pt: '📖 Este é um elemento interativo. Visite prompts.chat/book para experimentá-lo ao vivo!',
-  zh: '📖 这是一个互动元素。访问 prompts.chat/book 进行在线体验！',
-  ja: '📖 これはインタラクティブな要素です。prompts.chat/book でライブで試してみてください！',
-  ko: '📖 이것은 인터랙티브 요소입니다. prompts.chat/book을 방문하여 직접 체험해 보세요!',
-  ar: '📖 هذا عنصر تفاعلي. قم بزيارة prompts.chat/book لتجربته مباشرة!',
-  it: '📖 Questo è un elemento interattivo. Visita prompts.chat/book per provarlo dal vivo!',
-  ru: '📖 Это интерактивный элемент. Посетите prompts.chat/book, чтобы попробовать вживую!',
-  fa: '📖 این یک عنصر تعاملی است. برای امتحان زنده به prompts.chat/book مراجعه کنید!',
-  nl: '📖 Dit is een interactief element. Bezoek prompts.chat/book om het live te proberen!',
-  el: '📖 Αυτό είναι ένα διαδραστικό στοιχείο. Επισκεφθείτε το prompts.chat/book για να το δοκιμάσετε ζωντανά!',
-  az: '📖 Bu interaktiv elementdir. Canlı sınamaq üçün prompts.chat/book saytına daxil olun!',
-  he: '📖 זהו אלמנט אינטראקטיבי. בקרו ב-prompts.chat/book כדי לנסות אותו בזמן אמת!',
+  en: '📖 This is an interactive element. Visit prompts.bar/book to try it live!',
+  tr: '📖 Bu etkileşimli bir öğedir. Canlı denemek için prompts.bar/book adresini ziyaret edin!',
+  es: '📖 Este es un elemento interactivo. ¡Visita prompts.bar/book para probarlo en vivo!',
+  de: '📖 Dies ist ein interaktives Element. Besuchen Sie prompts.bar/book, um es live auszuprobieren!',
+  fr: '📖 Ceci est un élément interactif. Visitez prompts.bar/book pour l\'essayer en direct!',
+  pt: '📖 Este é um elemento interativo. Visite prompts.bar/book para experimentá-lo ao vivo!',
+  zh: '📖 这是一个互动元素。访问 prompts.bar/book 进行在线体验！',
+  ja: '📖 これはインタラクティブな要素です。prompts.bar/book でライブで試してみてください！',
+  ko: '📖 이것은 인터랙티브 요소입니다. prompts.bar/book을 방문하여 직접 체험해 보세요!',
+  ar: '📖 هذا عنصر تفاعلي. قم بزيارة prompts.bar/book لتجربته مباشرة!',
+  it: '📖 Questo è un elemento interattivo. Visita prompts.bar/book per provarlo dal vivo!',
+  ru: '📖 Это интерактивный элемент. Посетите prompts.bar/book, чтобы попробовать вживую!',
+  fa: '📖 این یک عنصر تعاملی است. برای امتحان زنده به prompts.bar/book مراجعه کنید!',
+  nl: '📖 Dit is een interactief element. Bezoek prompts.bar/book om het live te proberen!',
+  el: '📖 Αυτό είναι ένα διαδραστικό στοιχείο. Επισκεφθείτε το prompts.bar/book για να το δοκιμάσετε ζωντανά!',
+  az: '📖 Bu interaktiv elementdir. Canlı sınamaq üçün prompts.bar/book saytına daxil olun!',
+  he: '📖 זהו אלמנט אינטראקטיבי. בקרו ב-prompts.bar/book כדי לנסות אותו בזמן אמת!',
 };
 
 /**

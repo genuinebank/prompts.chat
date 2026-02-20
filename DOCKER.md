@@ -1,6 +1,6 @@
 # Docker Deployment Guide
 
-Run your own prompts.chat instance with a single command.
+Run your own prompts.bar instance with a single command.
 
 ## Quick Start
 

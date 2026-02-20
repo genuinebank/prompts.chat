@@ -482,7 +482,7 @@ export function PromptIde() {
       });
     });
     
-    // Add custom type definitions for prompts.chat
+    // Add custom type definitions for prompts.bar
     m.languages?.typescript?.typescriptDefaults?.addExtraLib(
       TYPE_DEFINITIONS,
       'prompts.chat.d.ts'

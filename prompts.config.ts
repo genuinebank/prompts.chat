@@ -6,11 +6,11 @@ const useCloneBranding = true;
 export default defineConfig({
   // Branding - your organization's identity
   branding: {
-    name: "Prompts",
+    name: "prompts.bar",
     logo: "/logo.svg",
     logoDark: "/logo.svg",
     favicon: "/logo.svg",
-    description: "prompts",
+    description: "Collect, organize, and share AI prompts",
   },
 
   // Theme - design system configuration

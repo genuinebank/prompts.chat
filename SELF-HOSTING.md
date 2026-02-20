@@ -24,11 +24,11 @@
 **Requirements:**
 - **Plan:** Free and open-source (CC0 license)
 - **User Permissions:** No account needed to browse; sign in via GitHub/Google to create & save prompts
-- **Availability:** Generally Available at [prompts.chat](https://prompts.chat)
+- **Availability:** Generally Available at [prompts.bar](https://prompts.bar)
 
 ---
 
-This guide explains how to deploy **prompts.chat** on your own private server for enhanced privacy and customization.
+This guide explains how to deploy **prompts.bar** on your own private server for enhanced privacy and customization.
 
 ## Prerequisites
 
@@ -132,7 +132,7 @@ This will:
 The setup wizard (`npm run setup`) generates `prompts.config.ts` automatically. You can also manually edit it:
 
 ```typescript
-// Set to true to use your own branding instead of prompts.chat branding
+// Set to true to use your own branding instead of prompts.bar branding
 const useCloneBranding = true;
 
 export default defineConfig({
@@ -172,10 +172,10 @@ export default defineConfig({
   homepage: {
     useCloneBranding,  // Use your branding on homepage
     achievements: {
-      enabled: !useCloneBranding,  // Hide prompts.chat achievements
+      enabled: !useCloneBranding,  // Hide prompts.bar achievements
     },
     sponsors: {
-      enabled: !useCloneBranding,  // Hide prompts.chat sponsors
+      enabled: !useCloneBranding,  // Hide prompts.bar sponsors
     },
   },
 

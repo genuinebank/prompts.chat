@@ -1,27 +1,27 @@
 # Claude Code Plugin
 
-Access prompts.chat directly in [Claude Code](https://code.claude.com) with our official plugin. Search prompts, discover skills, and improve your prompts without leaving your IDE.
+Access prompts.bar directly in [Claude Code](https://code.claude.com) with our official plugin. Search prompts, discover skills, and improve your prompts without leaving your IDE.
 
 ## Installation
 
-Add the prompts.chat marketplace to Claude Code:
+Add the prompts.bar marketplace to Claude Code:
 
 ```
-/plugin marketplace add f/prompts.chat
+/plugin marketplace add f/prompts.bar
 ```
 
 Then install the plugin:
 
 ```
-/plugin install prompts.chat@prompts.chat
+/plugin install prompts.bar@prompts.bar
 ```
 
 ## Features
 
 | Feature | Description |
 |---------|-------------|
-| **MCP Server** | Connect to prompts.chat API for real-time prompt access |
-| **Commands** | `/prompts.chat:prompts` and `/prompts.chat:skills` slash commands |
+| **MCP Server** | Connect to prompts.bar API for real-time prompt access |
+| **Commands** | `/prompts.bar:prompts` and `/prompts.bar:skills` slash commands |
 | **Agents** | Prompt Manager and Skill Manager agents for complex workflows |
 | **Skills** | Auto-activating skills for prompt and skill discovery |
 
@@ -121,7 +121,7 @@ Automatically activates when you:
 
 ## Authentication
 
-To save prompts and skills, you need an API key from [prompts.chat/settings](https://prompts.chat/settings).
+To save prompts and skills, you need an API key from [prompts.bar/settings](https://prompts.bar/settings).
 
 ### Option 1: Environment Variable
 
@@ -161,6 +161,6 @@ plugins/claude/prompts.chat/
 
 ## Links
 
-- **[prompts.chat](https://prompts.chat)** - Browse all prompts and skills
-- **[API Documentation](https://prompts.chat/api/mcp)** - MCP server endpoint
-- **[Settings](https://prompts.chat/settings)** - Get your API key
+- **[prompts.bar](https://prompts.bar)** - Browse all prompts and skills
+- **[API Documentation](https://prompts.bar/api/mcp)** - MCP server endpoint
+- **[Settings](https://prompts.bar/settings)** - Get your API key

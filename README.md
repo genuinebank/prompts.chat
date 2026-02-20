@@ -1,12 +1,12 @@
 <h1 align="center">
-  <a href="https://prompts.chat">
+  <a href="https://prompts.bar">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://prompts.chat/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://prompts.chat/logo.svg">
-      <img height="60" alt="prompts.chat" src="https://prompts.chat/logo.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://prompts.bar/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://prompts.bar/logo.svg">
+      <img height="60" alt="prompts.bar" src="https://prompts.bar/logo.svg">
     </picture>
     <br>
-    prompts.chat
+    prompts.bar
   </a>
 </h1>
 
@@ -19,14 +19,14 @@
 </p>
 
 <p align="center">
-  <a href="https://prompts.chat"><img src="https://img.shields.io/badge/Website-prompts.chat-blue?style=flat-square" alt="Website"></a>
+  <a href="https://prompts.bar"><img src="https://img.shields.io/badge/Website-prompts.bar-blue?style=flat-square" alt="Website"></a>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="https://huggingface.co/datasets/fka/prompts.chat"><img src="https://img.shields.io/badge/🤗-Hugging_Face-yellow?style=flat-square" alt="Hugging Face"></a>
   <a href="https://deepwiki.com/f/prompts.chat"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
 <p align="center">
-  <a href="https://prompts.chat/prompts">🌐 Browse Prompts</a> •
+  <a href="https://prompts.bar/prompts">🌐 Browse Prompts</a> •
   <a href="https://fka.gumroad.com/l/art-of-chatgpt-prompting">📖 Read the Book</a> •
   <a href="https://raw.githubusercontent.com/f/prompts.chat/main/PROMPTS.md">📄 View on GitHub</a> •
   <a href="#-self-hosting">🚀 Self-Host</a>
